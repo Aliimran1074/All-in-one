@@ -1,0 +1,29 @@
+li{
+    list-style: none;
+    display: inline;
+    padding: 0 34px;
+}
+ul{
+    padding: 34px;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+    height: 74vh; 
+    background-color: rgba(56, 44, 54, 0.363);
+    width: 40vw;
+}
+.right{
+    float:right;
+    height: 74vh;
+    width: 40vw; 
+    background-color: yellow;
+ }

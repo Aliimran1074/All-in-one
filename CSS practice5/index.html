@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        .container{
+            display: grid;
+            background-color: yellow;
+            height: 50vh; 
+            grid-template-columns:auto auto auto ;
+            grid-gap: 10px;
+            /* grid-template-rows: 50px 90px; */
+
+
+        }
+        .item{
+            background-color:aquamarine;
+            border: 2px solid navy; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+
+</div>
+</body>
+</html>
+<!-- display:grid - It is used to make display in shape of table (rows and column) -->
+<!-- grid-row-gap-: is used to adjust space b/w rows -->
+<!-- grid-column-gap-: is used to adjust space b/w column -->
+<!-- grid-template-column: to add multiple column by using auto(multiples times) -->
+<!-- grid-template-rows: to add multiple rows -->
+<!-- grid-gap : This property is used to make gap b/w grid-row as well as grid-column -->

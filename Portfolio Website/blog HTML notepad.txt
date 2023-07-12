@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li> <a href="/"> Home  </a> </li>
+                    <li> <a href="/intro.html"> My Intro </a></li>
+                    <li> <a href="/contact.html"> Contact Me </a></li>
+                    <li> <a href="skill.html"> Skill </a> </li>
+                    <li> <a href="/blog.html"> BLog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="humburger">
+                <img class="ham" src="ham.png" alt="" width="23px">
+                <img class="cross" src="cross2.png" alt="" width="23px">
+                    </div>
+      <div class="blogcontainer">
+        <h1>Blogs by Ali</h1>
+        <div class="blogitem">
+            <h2>Learn Javascript-in fun way!</h2>
+            <p>I have good command in Javascript , I done many projects based on Javascript</p>
+        </div>
+        <div class="blogitem">
+            <h2>HTML & CSS</h2>
+            <p>I am very expert as a web developer ,I created too many websites with use of HTML and CSS</p>
+            <button class="btn">Read more</button>
+        </div>
+        </div>
+    </div>
+    </div>
+<script src="index.js"></script>
+
+</body>
+
+</html>

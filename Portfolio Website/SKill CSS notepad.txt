@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:beige;
+}
+
+
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    font-family: 'IBM Plex Sans', sans-serif;
+    list-style: none;
+    font-size: 16px;
+    padding: 20px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar {
+    background-color: rgb(204, 202, 202);
+    width: 10vw;
+    height: 100vh;
+    transition: transform 0.4s ease-in;
+    position:absolute;
+}
+
+.main {
+    width: 90vw;
+    height:auto;
+    }
+.container {
+    display: flex;
+}
+.infocontainer{
+    height: 100vh;
+    width: 80vw;
+    margin-top: 100px;
+    /* margin-bottom: 30px; */
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 40px; */
+    /* background-color: wheat; */
+}
+.classskill{
+    /* opacity: 0; */
+    /* transition: opacity 2s ease-in-out; */
+    /* animation: show-background 2s linear forwards; */
+    background-color: red;
+    width:500px;
+    height: 10px;
+    border-radius: 3px;
+    border: 2px solid black;
+
+    }
+    /* @keyframes show-background {
+        to {
+          background-color: purple;
+        }
+      } */
+  
+.classskill1{
+    background-color:yellow;
+    width:500px;
+    height: 10px;
+    border-radius: 3px;
+    border: 2px solid black;
+
+
+}
+.classskill2
+{
+    border-radius: 3px;
+
+    background-color:darkgreen;
+    width:500px;
+    height: 10px;
+    border: 2px solid black;
+
+}
+.classskill3{
+    background-color:navy;
+    width:300px;
+    height: 10px;
+    border-radius: 3px;
+    border: 2px solid black;
+    
+
+}
+.classskill4{
+
+    background-color:orange;
+    border: 2px solid black;
+    border-radius: 3px;
+    width:200px;
+    height: 10px;
+    /* margin-bottom: 10px; */
+}
+.scam{
+    /* animation:hide-background 2s; */
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+}
+.skill{
+    font-size: 10px;
+    margin-bottom: 250px;
+}
+.skill h2{
+    margin-top: 30px;
+}
+.humburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 80px;
+}
+
+.sidebargo{
+    transform: translate(-200px,0px);
+position: absolute;
+}
+h2
+{
+    font-size: 50px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+    

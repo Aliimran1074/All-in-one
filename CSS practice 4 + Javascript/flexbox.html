@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction: row-reverse; 
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: aquamarine;
+            height: 80vh;
+            align-items:center;
+            align-content: center;
+        }
+        .box2
+        {
+            background-color:red;
+            height: 200px;
+            /* width: 200px; */
+            border: 2px solid black;
+            align-self: flex-end; 
+            flex-shrink: 4;
+         }
+        .box1{
+            background-color: blue;
+            height: 200px;
+            /* width: 200px; */
+            border: 2px solid black;
+            order: 4;
+            align-self: flex-end;
+            flex-grow: 1;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+    <div class="box2">Box 2a</div>
+    <div class="box2">Box 2b</div>
+
+    </div>
+</body>
+</html>
+<!-- float : is used to float element in any direction -->
+<!-- clear property : It is used to clear the float property form given direction -->
+<!-- display-flex: It is used to display as a box -->
+<!-- flex direction : It is used to give direction to flex/box -->
+<!-- flex wrap : It is used to wrap the flex box -->
+<!-- justify content : It is used to justify the content to center or given direction -->
+<!-- Alignment item: It is used to align the content vertically -->
+<!-- Align-content: It is used to remove the space after wrapping the container -->
+<!-- order: It is used to move the container at any order -->
+<!-- align -self: It is used to align the container -->
+<!-- Flex-grow: It is used to increase the width of particular box -->
+<!-- Flex shrink: It is used to shrink the width of particular box -->

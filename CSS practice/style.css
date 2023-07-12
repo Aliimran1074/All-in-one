@@ -1,0 +1,13 @@
+ .red{
+    background: rgb(20, 30, 40);
+    color: beige;
+}
+ .green{
+    background: green;
+    color: white;
+ }
+ *{
+
+ margin: 0;
+ padding: 0;
+ }

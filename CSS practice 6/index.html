@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta>
+    <title>Animation</title>
+    <style>
+        .container{
+            background-color:navy; 
+        }
+        .box{
+            border: solid 2px skyblue; 
+            display: inline-block;
+            height: 50vh;
+             }
+       
+        
+        img{
+            transition-property:all;
+            transition-duration:3s;
+            transition-timing-function:ease-out;
+            transition-delay:2s;
+        }
+        img:hover{
+            width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="Afridi.jpg" alt="Afridi pic" width="300px" height="200px">
+        </div>
+    </div>
+</body>
+</html>
+<!-- transition : transition propert , duration , timing function , delay -->
